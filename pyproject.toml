@@ -83,6 +83,7 @@ filterwarnings = [
 ]
 
 [tool.poetry.dependencies]
+authentik_client = "2024.2.2-1710464650"
 argon2-cffi = "*"
 celery = "*"
 channels = { version = "*", extras = ["daphne"] }
