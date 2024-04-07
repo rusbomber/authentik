@@ -15,6 +15,7 @@ class User(BaseUser):
 
     schemas: tuple[str] = ("urn:ietf:params:scim:schemas:core:2.0:User",)
     externalId: str | None = None
+    meta: dict | None = None
 
 
 class Group(BaseGroup):
@@ -22,6 +23,7 @@ class Group(BaseGroup):
 
     schemas: tuple[str] = ("urn:ietf:params:scim:schemas:core:2.0:Group",)
     externalId: str | None = None
+    meta: dict | None = None
 
 
 class ServiceProviderConfiguration(BaseServiceProviderConfiguration):
