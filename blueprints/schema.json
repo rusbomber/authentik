@@ -5867,7 +5867,8 @@
                 "device_type_restrictions": {
                     "type": "array",
                     "items": {
-                        "type": "integer"
+                        "type": "string",
+                        "format": "uuid"
                     },
                     "title": "Device type restrictions"
                 }
