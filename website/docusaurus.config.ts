@@ -20,7 +20,7 @@ module.exports = async function (): Promise<Config> {
             navbar: {
                 logo: {
                     alt: "authentik logo",
-                    src: "img/icon_left_brand.svg",
+                    src: "img/icon_left_brand_colour.svg",
                     href: "https://goauthentik.io/",
                     target: "_self",
                 },

@@ -7,8 +7,6 @@
     --ifm-color-primary-lighter: #fd7159;
     --ifm-color-primary-lightest: #fe9786;
     --white: #e3e3e3;
-    --ifm-navbar-link-color: var(--white);
-    --ifm-navbar-link-hover-color: var(--ifm-color-gray-1000);
 }
 
 .button.button--outline {
@@ -22,19 +20,11 @@
 }
 
 .navbar {
-    background-color: var(--ifm-color-primary);
     box-shadow: none;
 }
 
 .navbar__logo {
     margin: 0 0.75rem;
-}
-
-/* Match color of light/dark theme switch */
-.navbar__items--right svg,
-.navbar-sidebar__brand svg {
-    color: var(--white);
-    stroke: var(--white);
 }
 
 .header-github-link:hover {
